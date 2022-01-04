@@ -1,0 +1,1 @@
+<h2> Successfully verified , please login in mobile app.</h2>

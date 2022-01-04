@@ -1,0 +1,17 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Faisal
+ * Date: 5/18/2018
+ * Time: 12:00 PM
+ */
+return [
+    'MEMBERME_ID' => env('MEMBERME_ID',15550),
+    'LOGIN_URL' => env('LOGIN_URL','https://memberme.me/login.php'),
+    'SENDGRID_API_KEY' => env('SENDGRID_API_KEY','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'),
+    'SENDGRID_MEMBER_PASSWORD_EMAIL_TEMPLATE_ID' => env('SENDGRID_USER_PASSWORD_EMAIL_TEMPLATE_ID','d-56e7b0dae82a41f8bc95a5ddf768a091'),
+    'SENDGRID_USER_PASSWORD_EMAIL_TEMPLATE_ID' => env('SENDGRID_USER_PASSWORD_EMAIL_TEMPLATE_ID','d-130f1b616c124c4289289c86f49238b1'),
+    'SUPER_ADMIN_REGISTRATION_EMAIL' => env('SUPER_ADMIN_REGISTRATION_EMAIL','registrations@memberme.me'),
+    'UNTILL_APP_NAME' => 'Memberme',
+    'UNTILL_APP_TOKEN' => env('UNTILL_APP_TOKEN','eMVUAI9lvFd7')
+];

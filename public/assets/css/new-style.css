@@ -1,0 +1,1525 @@
+﻿/*-------------------------------------------- Change in Templates -----------------------------*/
+
+html{
+    background: #383f48;
+}
+
+/*----------------------- Header--------------------*/
+
+.my-profile-pic {
+    margin-right: 10px;
+}
+
+.my-preloader {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: rgba(0, 0, 0, 0.3) !important;
+    width: 100.03% !important;
+    border-radius: 5px !important;
+}
+
+.scroll-sidebar{
+    overflow-x: hidden !important;
+}
+
+/*-------------- Form Elements ---------------*/
+
+select {
+    color: #747d8a !important;
+}
+
+textarea:focus, input:focus {
+    color: #9FA3A7 !important;
+}
+
+.bootstrap-select .dropdown-menu li a:hover {
+    color: #EBECED !important;
+}
+
+.btn-secondary.active, .btn-secondary:active, .show > .btn-secondary.dropdown-toggle {
+    background-color: #383f48;
+}
+
+.editable-click, a.editable-click, a.editable-click:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.editable-buttons {
+    left: 50%;
+    bottom: -27px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+    opacity: 0.7;
+}
+
+.editable-container {
+    position: relative;
+}
+
+#update-subscription-form .form-material .form-group.row {
+    margin-bottom: 0;
+}
+
+/*------------------- Modals ---------------------*/
+
+.modal-footer {
+    text-align: right;
+}
+
+.modal-content {
+    border: 0;
+}
+
+.modal-body .table-responsive {
+    overflow-y: hidden;
+}
+
+/*--------------------- Data Tables ------------------*/
+
+/*noinspection CssUnusedSymbol*/
+.dt-buttons {
+    padding-top: 0;
+}
+
+table.text-center th {
+    text-align: center;
+}
+
+/*-------------------------- Tabs ----------------------*/
+
+.profile-tab li a.nav-link, .customtab li a.nav-link {
+    padding: 15px 15px;
+}
+
+/*---------------------------------------------- My Global Classes -------------------------------*/
+
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+a:focus, a:hover {
+    color: #01c0c8;
+}
+
+.bold {
+    font-weight: bold !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.my-modal-open {
+    overflow: hidden;
+}
+
+.my-modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.editable-error-block {
+    color: red;
+    font-weight: 500;
+}
+
+.editableform .form-control {
+    color: #acb1b9;
+}
+
+.sms-form .input-group-btn {
+    width: 110px;
+}
+
+.input-group-btn > button {
+    background-color: #1B7EA8;
+    border: none;
+}
+
+.input-group-btn > button:hover {
+    background-color: #007bb6;
+    color: white;
+    border: none;
+}
+
+.date-column {
+    width: 200px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.my-detail-modal .modal-body {
+    height: 650px;
+}
+
+.relative {
+    position: relative;
+}
+
+.show-480 {
+    display: none;
+}
+
+.show-md {
+    display: none;
+}
+
+/*--------------------------- header ----------------------*/
+
+.left-sidebar {
+    position: fixed;
+}
+
+.scroll-sidebar {
+    padding-top: 9px;
+}
+
+.organization-img {
+    padding: 0 48px;
+}
+
+.organization-img > img {
+    border-radius: 3px;
+}
+
+li.mega-dropdown {
+    margin-right: 10px;
+}
+
+.sidebar-footer a {
+    width: 100%;
+}
+
+.search-companies .app-search {
+    margin-right: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.search-companies .app-search input {
+    width: 250px !important;
+}
+
+.my-messages .dropdown-menu,
+.my-notifications .dropdown-menu {
+    left: initial;
+    right: 0;
+}
+
+/*--------------------------------------------------- Dashboard -------------------------------------*/
+
+/*---------------------- Widgets ---------------------*/
+
+.dashboard-widgets {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.single-widget .card {
+    margin-bottom: 10px;
+}
+
+.dashboard-widgets .flex-row .fa {
+    font-size: 22px;
+    position: relative;
+    top: 2px;
+}
+
+.dashboard-widgets .card-block {
+    height: 100%;
+}
+
+.dashboard-widgets h6.text-muted {
+    text-transform: uppercase;
+}
+
+.dashboard-widgets .div-widget-btn > button:first-child,
+.dashboard-widgets .div-widget-btn > a:first-child {
+    float: left;
+}
+
+.dashboard-widgets .div-widget-btn > button:last-child,
+.dashboard-widgets .div-widget-btn > a:last-child {
+    float: right;
+}
+
+.dashboard-widgets .div-widget-btn > .btn {
+    padding: 15px 12px;
+    opacity: 1;
+    width: 49%;
+    font-size: 14px;
+    border: none;
+    transition: .5s;
+}
+
+.dashboard-widgets .div-widget-btn > .btn:hover {
+    color: #747d8a;
+}
+
+.dashboard-widgets .div-widget-btn i {
+    margin-right: 5px;
+}
+
+/*------------------------- table -----------------------*/
+
+.dashboard-table .card-block {
+    padding-top: 0;
+}
+
+.modal .dataTables_filter input, .dashboard-table .dataTables_filter input {
+    margin-left: 10px
+}
+
+/*noinspection CssUnusedSymbol,CssUnusedSymbol*/
+.modal .dataTables_filter, .dashboard-table .dataTables_filter {
+    float: left;
+}
+
+/*noinspection CssUnusedSymbol,CssUnusedSymbol*/
+.modal .dt-buttons, .dashboard-table .dt-buttons {
+    float: right;
+}
+
+.members-overview tr td:not(:first-child):hover {
+    background-color: #383F48;
+    cursor: pointer;
+}
+
+/*---------------------------- Login and Register -------------------------*/
+
+.my-bg-login {
+    /*noinspection CssUnknownTarget*/
+    background-image: url('../assets/images/background/login4.jpg');
+}
+
+/*---------------------------- Overview Options -----------------------------*/
+
+.overview-options > button {
+    margin-right: 10px;
+}
+
+.members-overview .overview-table a {
+    width: 100%;
+    display: inline-block;
+}
+
+.members-overview .table {
+    text-align: center;
+}
+
+.members-overview th {
+    text-align: center;
+    vertical-align: top !important;
+}
+
+.members-overview .table th.top-row {
+    padding-bottom: 0;
+    padding-top: 3px;
+}
+
+.compact-table-header th {
+    padding-top: 0;
+    padding-bottom: 5px;
+}
+
+.members-overview .table th.days {
+    padding-bottom: 0;
+    padding-top: 15px;
+}
+
+.members-overview tr td:first-child {
+    text-align: left;
+    padding-left: 20px;
+}
+
+/*Add Member Modal*/
+#add-member-form, .btn-add-member-form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#add-member-form label {
+    color: white;
+}
+
+#add-member-form .form-group.validate input, #add-member-form .form-group.validate select, #add-member-form .form-group.validate textarea {
+    background-image: none;
+    border: 0;
+    border-bottom: 2px solid #55ce63;
+    transition: .3s;
+}
+
+#add-member-form .form-group.error input, #add-member-form .form-group.error select, #add-member-form .form-group.error textarea {
+    background-image: none;
+    border: 0;
+    border-bottom: 2px solid #f62d51;
+    transition: .3s;
+}
+
+.form-material .form-control:focus {
+    background-color: #383F48;
+}
+
+.btn-add-member-form > button {
+    width: 120px;
+    text-align: center !important;
+}
+
+#dob-picker {
+    padding-bottom: 5px;
+    margin-top: 5px;
+    display: block;
+}
+
+#add-member-form .combodate select {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/*Member Details Modal*/
+
+/*Bad Practice*/
+#user-detail-modal .tab-pane {
+    height: 425px;
+}
+
+.my-dataTable tbody tr:hover,
+.my-dashboard-table tbody tr:hover {
+    cursor: pointer;
+}
+
+.my-detail-modal .my-height {
+    height: 580px;
+}
+
+.my-detail-modal .modal-content {
+    width: 140%;
+    left: -20%;
+}
+
+.my-detail-modal .detail-modal-btns button {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+.my-detail-modal .age.modal-title {
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+.my-detail-modal .customtab .nav-link.active {
+    background-color: #383F48;
+}
+
+.my-detail-modal .modal-body {
+    padding: 20px 40px;
+}
+
+.my-label {
+    color: #9097A2;
+    font-weight: 400;
+}
+
+.static-detail-fields p {
+    margin-bottom: 3px;
+}
+
+.detail-modal-btns > .close {
+    opacity: 1;
+    padding: inherit;
+    cursor: pointer;
+    background: initial;
+    border: initial;
+}
+
+.user-tab-others > .row .row {
+    margin-bottom: 5px;
+}
+
+/*Member Detail Modal Groups Tab*/
+#groups .multi-dd-label {
+    position: relative;
+    top: 4px;
+}
+
+#groups .multi-dd-list,
+#org-groups .multi-dd-list,
+#site-settings-modal .multi-dd-list {
+    width: 60% !important;
+    margin: 0;
+    display: inline-block;
+    /*overflow-y: auto;*/
+}
+
+#org-groups .multi-dd-list {
+    height: 340px;
+}
+
+#groups .multi-dd-list ul, #org-groups .multi-dd-list ul {
+    margin-bottom: 5px;
+}
+
+#site-settings-modal .multi-dd-list li,
+#groups .multi-dd-list li,
+#org-groups .multi-dd-list li {
+    padding: 5px 0 5px 15px;
+}
+
+#groups .bootstrap-select button {
+    color: #747d8a;
+}
+
+/*Change Subscription Status Popup*/
+.full-x-editable .editable-container,
+.full-x-editable .control-group,
+.full-x-editable .control-group > div,
+.full-x-editable .editable-input,
+.full-x-editable .editable-input textarea,
+.full-x-editable .editable-input input {
+    width: 100%;
+}
+
+#current-status-reason-content .editable-container {
+    margin-bottom: 20px;
+}
+
+#current-status-reason-content .editable-buttons {
+    top: initial;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*Add Event Modal*/
+#add-event-modal .modal-body h4 {
+    width: 100%;
+    margin-left: 20px;
+    color: white !important;
+    margin-bottom: 20px;
+}
+
+.my-datetime-picker .control-group {
+    width: 90%;
+}
+
+/*Subscription Modal*/
+.subscription-table .title {
+    color: #01c0c8;
+}
+
+.subscription-table .btn#add-subscription-btn, #update-subscription-btn {
+    color: white !important;
+    margin: 20px 0;
+    padding: 7px 8px;
+    font-size: 15px;
+}
+
+#add-subscription-modal .modal-body {
+    padding: 20px
+}
+
+#add-subscription-modal .form-group {
+    margin-bottom: 15px;
+}
+
+.subscription-options .editable-input > input {
+    width: 90px;
+}
+
+.subscription-options > p {
+    margin-bottom: 0;
+}
+
+.subscription-note {
+    margin-top: 20px;
+}
+
+/*Identity Virtual Card*/
+
+.button-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.button-overlay button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+}
+
+.virtual-card-wrapper > div {
+    /*overflow-x: auto;*/
+    display: inline-block;
+}
+
+#identity .div-profile-img {
+    width: 180px;
+    margin-right: 40px;
+}
+
+#identity .profile-img {
+    position: relative;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+#profile-card-image:hover .button-overlay,
+#identity .profile-img:hover .button-overlay,
+#identity .virtual-card:hover .button-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+#identity .profile-img img {
+    height: 204px;
+    width: 180px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.div-virtual-card {
+    width: 323px;
+}
+
+.virtual-card {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 13px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    transition: .5s;
+}
+
+.virtual-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 13px;
+}
+
+.virtual-card .button-overlay {
+    border-radius: 13px;
+}
+
+.virtual-card-content {
+    /*background-color: #c3c0bb;*/
+    border-radius: 5px;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+}
+
+.virtual-card .card-image {
+    padding: 10px 25px 10px 25px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.virtual-card .card-image img {
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.virtual-card img {
+    height: 100%;
+}
+
+.virtual-card h3, .virtual-card h5 {
+    margin-bottom: 4px;
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.virtual-card h3.name {
+    margin-top: 20px;
+}
+
+.virtual-card h5 {
+    font-size: 15px;
+}
+
+.virtual-card h5:last-child {
+    margin-bottom: 13px;
+}
+
+#identity .virtual-card button {
+    top: 53%;
+}
+
+/*Organization Details Modal*/
+.organization-logo {
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.organization-logo:hover .button-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*Bad Practice*/
+#organization-detail-modal .tab-pane {
+    height: 485px;
+}
+
+/*Toggle Tab*/
+.single-toggle .toggle.ios {
+    float: right;
+    margin-right: 40px;
+}
+
+.single-toggle > p {
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+}
+
+/*Options Tab*/
+#options > .row {
+    margin-bottom: 15px;
+}
+
+/*Reports Modal*/
+.reports-link a {
+    color: #747d8a;
+}
+
+.reports-link a:hover {
+    color: #01c0c8;
+}
+
+/*Virtual Cards Modal*/
+
+#virtual-cards-modal .modal-body, #add-virtual-cards-modal .modal-body {
+    height: 600px;
+}
+
+#cards .table .btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+#cards .table .btn-circle .fa {
+    font-size: 12px;
+}
+
+.virtual-card-list-wrapper .row {
+    margin: 10px 0 20px 0;
+}
+
+.virtual-card-design .div-image {
+    max-width: 415px;
+    max-height: 260px;
+    margin: 0 auto;
+}
+
+.virtual-card-design img {
+    width: 100%;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+/*Show Card Modal*/
+#show-card-modal .virtual-card {
+    width: 415px;
+    height: 260px;
+}
+
+#show-card-modal .virtual-card img {
+    border-radius: 17px;
+}
+
+#show-card-modal .virtual-card-content .text-content {
+    padding-top: 5px;
+}
+
+/*---------------------------- Overview -----------------------------*/
+
+.member-add-field {
+    padding-top: 15px;
+}
+
+.member-add-field .member-search {
+    float: right;
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+.field-to-search > div {
+    margin-top: 7px;
+}
+
+#add-new-field {
+    padding-top: 5px;
+}
+
+/*--------------Payments Modal*/
+
+.billing-table .checkbox label {
+    bottom: 6px;
+    left: 12px;
+}
+
+.billing-table th {
+    font-weight: 400 !important;
+}
+
+#billing-tab #member-id {
+    max-width: 170px;
+    margin-right: 10px;
+}
+
+#billing-tab .member-id-field {
+    width: 170px;
+}
+
+.billing-table .btn-danger {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    font-size: 13px;
+}
+
+/*-------------------------------------------------- Comms Page ---------------------------------*/
+
+/*SMS TAB*/
+
+.sms-form {
+    margin-top: 60px;
+    padding-left: 50px;
+}
+
+.sms-preview {
+    text-align: center;
+}
+
+.div-image {
+    text-align: center;
+}
+
+.sms-preview .div-image > img {
+    width: 60%;
+    display: inline-block;
+}
+
+.sms-content {
+    width: 48.7%;
+    display: inline-block;
+    position: absolute;
+    top: 11.9%;
+    left: 25.6%;
+    bottom: 11.3%;
+    padding: 10px;
+    color: white;
+    /*max-height: 340px;*/
+}
+
+.sms-content h4 {
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 2px solid #6b6b6b;
+    padding-bottom: 7px;
+    margin-bottom: 2px;
+}
+
+.sms-content p#message-preview {
+    color: black;
+    background-color: white;
+    line-height: 1.3;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    padding: 15px 15px 40px;
+    font-family: sans-serif;
+}
+
+.personalisation {
+    font-size: 15px;
+}
+
+/*---------------------------------------------------- User Profile Page -----------------------------*/
+
+#profile-card-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+#profile-card-image .button-overlay {
+    border-radius: 50%;
+}
+
+#profile-card-image button {
+    opacity: 0.8;
+    top: 55%;
+    font-size: 17px;
+    padding: 5px 10px;
+}
+
+#user-profile-details {
+    min-height: 360px;
+}
+
+.row.email {
+    margin-bottom: 10px;
+}
+
+.row.email > div:last-child {
+    padding-left: 6%;
+}
+
+#profile-note {
+    margin-left: 5.4%;
+}
+
+#user-profile-details > .row .row {
+    margin-bottom: 10px;
+}
+
+#user-profile-details .full-x-editable .editable-container {
+    margin-left: 42px;
+}
+
+/*-------------------------------------------------- Cards Slider Theming ---------------------------------*/
+
+#cards-slider {
+    margin: 0 auto;
+}
+
+/*------Scroll Bar*/
+
+#cards-slider > div > div:nth-child(2) {
+    background-color: black !important;
+}
+
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) {
+    height: 20px !important;
+}
+
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) {
+    height: 20px !important;
+}
+
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
+    height: 20px !important;
+}
+
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) div:nth-child(2) {
+    background: none !important;
+}
+
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) img:nth-child(1),
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) img:nth-child(3) {
+    height: 0 !important;
+    width: 0 !important;
+}
+
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
+    height: 20px !important;
+}
+
+/*upper*/
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) {
+    height: 20px !important;
+    border-radius: 10px !important;
+}
+
+/*lower*/
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) {
+    height: 20px !important;
+    border-radius: 10px !important;
+    background: #272C33 none !important;
+
+}
+
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) {
+    height: 20px !important;
+    border-radius: 10px !important;
+    background: #272C33 none !important;
+}
+
+/*Bars*/
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > img:nth-child(2),
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > img:nth-child(1),
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > img:nth-child(5),
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > img:nth-child(6) {
+    height: 0 !important;
+    width: 0 !important;
+}
+
+/*Slide Count*/
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(7) {
+    color: #01c0c8 !important;
+    top: -4px !important;
+}
+
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(8) {
+    height: 20px !important;
+}
+
+/*---Arrows*/
+
+/*left*/
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) {
+    width: 0;
+    height: 0;
+}
+
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > img {
+    display: none !important;
+}
+
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(2)::after {
+    content: "\f104";
+    font-family: 'FontAwesome', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 0;
+    background: #272C33;
+    color: #01c0c8;
+    padding: 0 10px;
+    border-radius: 50%;
+}
+
+/*right*/
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > img {
+    display: none !important;
+}
+
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(3)::after {
+    content: "\f105 ";
+    font-family: 'FontAwesome', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 0;
+    background: #272C33;
+    color: #01c0c8;
+    padding: 0 10px;
+    border-radius: 50%;
+}
+
+/*play and pause*/
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(4) > div:nth-child(3) > img {
+    display: none !important;
+    height: 0;
+}
+
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(4) > div:nth-child(3)::after {
+    content: "\f04b";
+    font-family: 'FontAwesome', sans-serif;
+    font-size: 13px;
+    position: relative;
+    top: 2px;
+    background: #272C33;
+    color: #01c0c8;
+    padding: 3px 6px 3px 7px;
+    border-radius: 10px;
+}
+
+/*timer*/
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) {
+    display: none !important;
+}
+
+/*resume*/
+
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(4) > img:nth-child(1) {
+    display: none !important;
+}
+
+#cards-slider > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(4):before {
+    content: "\f04c";
+    font-family: 'FontAwesome', sans-serif;
+    font-size: 13px;
+    position: relative;
+    top: 2px;
+    background: #272C33;
+    color: #01c0c8;
+    padding: 3px 7px 3px 7px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1399px) {
+    .sms-content {
+        width: 57.7%;
+        left: 21.3%;
+    }
+
+    .sms-preview .div-image > img {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .dashboard-widgets .div-widget-btn > .btn {
+        padding: 10px 12px;
+        font-size: 20px;
+        width: 48%;
+    }
+
+    .dashboard-widgets .div-widget-btn span.text {
+        display: none;
+    }
+
+    /*-------------------------- Comms Page -------------------*/
+
+    .sms-form {
+        margin-top: 20px;
+        padding-left: 15px;
+
+    }
+
+    .sms-content {
+        width: 64%;
+        left: 18%;
+        top: 11.8%;
+    }
+
+    .sms-preview .div-image > img {
+        width: 80%;
+    }
+
+    .sms-content h4 {
+        margin-top: 5px;
+    }
+
+    .sms-content p#message-preview {
+        color: black;
+        background-color: white;
+        line-height: 1.3;
+        margin-bottom: 5px;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left;
+        padding: 15px 15px 40px;
+        font-family: sans-serif;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    /*------------------------------ Organization Detail Modal -------------------------*/
+    #organization-detail-modal .nav-item a, #user-detail-modal .nav-item a {
+        padding: 15px 15px !important;
+    }
+
+    /*---------------------------- Overview Options -----------------------------*/
+    /*Add Member Modal*/
+    .my-detail-modal .modal-content {
+        width: 120%;
+        left: -10%;
+    }
+
+    /*---------------------------- Comms ----------------------------------------*/
+}
+
+@media screen and (max-width: 991px) {
+
+    .hide-md {
+        display: none;
+    }
+
+    .show-md {
+        display: block;
+    }
+
+    hr.show-md {
+        width: 100%;
+    }
+
+    .my-detail-modal .modal-body {
+        padding: 10px 20px;
+    }
+
+    .my-detail-modal .my-label.col-md-6 {
+        text-align: right;
+    }
+
+    /*--------------------------------- Dashboard Widgets ----------------------*/
+    .dashboard-widgets {
+        margin-bottom: 15px;
+    }
+
+    .dashboard-widgets .single-widget {
+        margin-bottom: 40px;
+    }
+
+    /*-------------------------- Change in Templates ----------------------*/
+    /*noinspection CssUnusedSymbol*/
+    .dt-buttons .dt-button {
+        padding: 5px 10px;
+    }
+
+    .selected-company-name {
+        font-size: 14px !important;
+    }
+
+    .topbar .top-navbar .app-search input {
+        width: 120px;
+    }
+
+    /*noinspection CssUnusedSymbol*/
+    .modal .dt-buttons {
+        width: 100%;
+        text-align: center;
+    }
+
+    /*noinspection CssUnusedSymbol*/
+    .modal .dataTables_filter {
+        float: none;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .modal .table-responsive {
+        margin-top: 20px !important;
+    }
+
+    .modal .customtab {
+        padding: 10px 0;
+    }
+
+    /*---------------------------- Overview Options -----------------------------*/
+    .field-to-search button {
+        padding: 0;
+    }
+
+    .user-tabs .col-lg-8 {
+        margin-bottom: 20px;
+    }
+
+    .user-tabs .col-lg-8,
+    .user-tabs .col-lg-4 {
+        text-align: center !important;;
+    }
+
+    /*User Detail Modal */
+    /*Bad Practice*/
+    #user-detail-modal .tab-pane {
+        height: 860px;
+    }
+
+    /*Organization Details Modal*/
+    /*Bad Practice*/
+    #organization-detail-modal .tab-pane {
+        height: 765px;
+    }
+
+    /*Organization Detail Model*/
+    #organization-detail-modal .nav-item a, #user-detail-modal .nav-item a {
+        padding: 5px !important;
+        font-size: 14px;
+    }
+
+    /*Payments Modal*/
+    .billing-calculations .text-right {
+        text-align: center !important;
+        margin-right: 0 !important;
+    }
+
+    /*------------------------------- Comms ------------------------------------------*/
+    .sms-preview .div-image > img {
+        width: 45%;
+    }
+
+    .sms-content {
+        width: 38%;
+        left: 31%;
+        top: 11.8%;
+    }
+
+    /*------------------------------- Profile Page ------------------------------------------*/
+
+    .row.email > div:last-child {
+        padding-left: 15px;
+    }
+
+    #profile-note {
+        margin-left: 0;
+    }
+
+    #user-profile-details .full-x-editable .editable-container {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) {
+
+    /*Change Sidebar Dropdown due to font-awesome*/
+    .mini-sidebar .sidebar-nav #sidebarnav > li > ul {
+        top: 51px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    /*-------------------------- Change in Templates and Responsiveness -----------------------*/
+    /*noinspection CssUnusedSymbol*/
+    .dt-buttons {
+        width: 100%;
+        text-align: center;
+    }
+
+    /*noinspection CssUnusedSymbol*/
+    .dataTables_filter {
+        text-align: center;
+        float: none !important;
+        padding-top: 40px;
+        padding-bottom: 5px;
+    }
+
+    .member-add-field {
+        text-align: center;
+    }
+
+    .member-add-field .member-search {
+        float: none !important;
+        margin-top: 5px;
+    }
+
+    #org-detail .col-md-5 {
+        text-align: left;
+    }
+
+    #gateway-detail-form .col-md-7,
+    #org-detail .col-md-7 {
+        text-align: center;
+    }
+
+    #add-event-modal .col-md-4.text-right.my-label {
+        text-align: left !important;
+    }
+
+    #add-event-modal .col-md-8 {
+        text-align: center;
+    }
+
+    .my-detail-modal .my-label.col-md-6 {
+        text-align: left;
+    }
+
+    .my-detail-modal .tab-pane:not(.logs):not(#options) .col-md-6:not(.my-label) {
+        text-align: center;
+    }
+
+    .modal .row .my-label {
+        margin-top: 10px;
+    }
+
+    .scroll-sidebar {
+        overflow-x: hidden !important;
+    }
+
+    /*--------------------------------------------------------*/
+    .container-fluid {
+        padding: 25px 10px;
+    }
+
+    .selected-company-name {
+        display: none;
+    }
+
+    /*---------------------------- Overview Options -----------------------------*/
+    .member-add-field .member-search {
+        float: right;
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+
+    /*Member Detail Modal*/
+    /*Notes Tab*/
+    .add-note {
+        margin-left: 0;
+    }
+
+    /*Add Member Modal*/
+    .my-detail-modal .modal-content {
+        width: 110%;
+        left: -5%;
+    }
+
+    /*Bad Practice*/
+    #user-detail-modal .tab-pane {
+        height: 1815px;
+    }
+
+    /*Organization Details Modal*/
+    /*Bad Practice*/
+    #organization-detail-modal .tab-pane {
+        height: 1540px;
+    }
+
+    .overview-options > button {
+        width: 100%;
+        margin-bottom: 6px;
+        border-radius: 5px;
+    }
+
+    /*Organization > Options */
+    #options > .row {
+        margin-bottom: 0;
+    }
+
+    .single-toggle > p {
+        float: left;
+    }
+
+    /*--------------------------------- Comms ---------------------------------------*/
+    #sms-tab {
+        padding: 0;
+    }
+
+    .sms-preview {
+        display: none;
+    }
+
+    .personalisation .heading {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    /*-------------------------------------- Modals -------------------------------*/
+    .modal-dialog {
+        margin: 10px 30px;
+    }
+
+    /*Change Subscription Status Popup*/
+    .add-note.full-x-editable .editable-container {
+        width: 80%;
+    }
+
+    /*--------------------------------- Dashboard Index ----------------------------*/
+    .dashboard-widgets .row > .col-sm-3:not(:last-child) {
+        margin-bottom: 35px;
+    }
+
+    .dashboard-widgets .single-widget {
+        margin-bottom: 25px;
+    }
+
+    .dashboard-widgets .div-widget-btn {
+        bottom: -12px;
+    }
+
+    .dashboard-widgets .div-widget-btn > .btn {
+        padding: 8px 12px;
+        font-size: 17px;
+    }
+
+    .widget-text {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 575px) and (orientation: portrait){
+
+    /*-------------------------------------- Virtual Card -------------------------------*/
+
+    #show-card-modal .modal-body{
+        height: 500px;
+    }
+
+    #show-card-modal .virtual-card{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%) rotate(90deg);
+        bottom: 25%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /*-------------------------- Change in Templates -----------------------*/
+    .card-block {
+        padding: 10px;
+    }
+
+    .modal-footer {
+        text-align: center;
+    }
+
+    /*noinspection CssUnusedSymbol*/
+    .dt-buttons .dt-button {
+        padding: 5px 6px;
+        font-size: 14px;
+    }
+
+    .modal-dialog {
+        margin: 10px 25px;
+    }
+
+    /*-----------------------------------------------------------------*/
+    /*Identity Tab*/
+    .virtual-card-wrapper {
+        overflow-x: auto;
+    }
+
+    #identity .div-profile-img {
+        margin-right: 0;
+    }
+
+    #identity .profile-img {
+        top: 0;
+    }
+
+    .btn-add-member-form > button {
+        width: 70px;
+    }
+
+    .member-add-field {
+        text-align: center;
+    }
+
+    .member-add-field .member-search {
+        float: none;
+        margin-top: 7px;
+    }
+
+    .member-add-field > div {
+        width: 100%;
+    }
+
+    .show-480 {
+        display: block;
+    }
+
+    .hide-480 {
+        display: none;
+    }
+
+    .sms-form .input-group-btn {
+        width: 50px;
+    }
+}
